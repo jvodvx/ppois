@@ -1,4 +1,4 @@
-
+# Файлы компиляции
 *.obj
 *.o
 *.pch
@@ -8,15 +8,18 @@
 *.res
 *.sbr
 
+# Исполняемые файлы
 *.exe
 *.dll
 *.so
 *.dylib
 *.app
 
+# Статические библиотеки
 *.lib
 *.a
 
+# Файлы Visual Studio
 *.sln
 *.vcxproj
 *.vcxproj.filters
@@ -33,6 +36,7 @@
 *.vspscc
 *.vssscc
 
+# Папки сборки
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
@@ -45,16 +49,20 @@ x86/
 [Oo]ut/
 bin/
 
+# Временные файлы
 ipch/
 *.tmp
 *.temp
 
+# Системные файлы
 Thumbs.db
 .DS_Store
 
+# Резервные копии
 *.[Bb]ak
 *.backup
 
+# Файлы документации (если не нужны)
 *.pdf
 *.doc
 *.docx
